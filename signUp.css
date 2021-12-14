@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(Poppins/Poppins-Regular.ttf);
+}
+
+body {
+    font-family: 'Poppins', Poppins-Regular, sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #fff;
+    padding: 2rem 0;
+
+    background-image: linear-gradient(to right, rgba(165, 69, 111, 0.75),rgba(148,187,233,.75)),
+                        url(../img/study.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#main {
+    max-width: 72rem;
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+#title {
+    margin-bottom: .8rem;
+}
+
+#description {
+    margin-bottom: .6rem;
+    font-size: 120%;
+}
+
+#survey-form {
+    background-color: rgba(27, 27, 50, .9);
+    padding: 3rem 5rem;
+    text-align: left;
+    border-radius: .4rem;
+}
+
+.form_input {
+    outline: none;
+    display: block;
+    font-family: inherit;
+    width: 100%;
+    padding: .8rem 1.2rem;
+    margin-top: .4rem;
+    border-radius: .5rem;
+}
+.form-class {
+    margin-bottom: 2rem;
+}
+.form-class_label {
+    display: block;
+    margin-bottom: .4rem;
+}
+.form_check {
+    display: inline-block;
+    margin-right: .8rem;
+}
+
+.form_submit {
+    margin: 2rem 0;
+    display: inline-block;
+    width: 100%;
+    padding: 1.3rem 0;
+    border-radius: .5rem;
+    border: none;
+    cursor: pointer;
+
+    font-family: inherit;
+    color: #fff;
+    background-color: #37af65;
+}
